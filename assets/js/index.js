@@ -1,4 +1,5 @@
 function solutionhandler() {
+  document.getElementById("solutionDisplay").style.display = "block";
   const x = prompt("Current location of frog is", 10);
   const y = prompt("Frog destination position is located at", 85);
   const d = prompt("Frog always jump at a fixed distance of", 30);
