@@ -3,22 +3,33 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Front Page Sample 1</title>
+  <title>Frog Jump Counts</title>
 
-    <!-- link for fav icon in title -->
-    <link rel="shortcut icon" href="favicon.ico">
+  <!-- link for fav icon in title -->
+  <link rel="shortcut icon" href="favicon.ico">
 
-    <!-- link for stylesheets -->
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- link for stylesheets -->
+  <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
 
+  <h1>Frog Jump - Counts</h1>
+  <p>A small frog wants to get to the other side of the road. The frog is currently located at position X and wants to
+    get to a position greater than or equal to Y. The small frog always jumps a fixed distance D.</p>
+  <p>Count the minimal number of jumps that the small frog must perform to reach its target.</p>
+
+  <button type="button" onclick="solutionhandler()">Solution</button>
+
+  <!-- Solution -->
+  <p id="solutionDisplay"></p>
+
 </body>
+<script src="assets/js/index.js"></script>
 
 </html>
